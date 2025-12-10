@@ -14,18 +14,18 @@ class Vowel_Consonant
             case 'a':
             case 'e':
             case 'i':
-            case '0':
+            case 'o':
             case 'u':
                 System.out.println(ch + " is a vowel.");
                 break;
             default:
                 if(lowerCh >= 'a' && lowerCh <= 'z')
                 {
-                    System.err.println(ch + " is a consonant.");
+                    System.out.println(ch + " is a consonant.");
                 }
                 else
                 {
-                    System.err.println(ch + " is not an alphabet.");
+                    System.out.println(ch + " is not an alphabet.");
                 }
         }
         sc.close();
