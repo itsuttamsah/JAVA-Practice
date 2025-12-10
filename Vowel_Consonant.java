@@ -1,4 +1,4 @@
-//Write a program to find whether the alphabet is vowel or consonant using switch statement .
+//Qn.1 Write a program to find whether the alphabet is vowel or consonant using switch statement .
 import java.util.Scanner;
 
 class Vowel_Consonant
@@ -10,7 +10,7 @@ class Vowel_Consonant
 
         char lowerCh = Character.toLowerCase(ch);
 
-        switch (lowerCh) {
+        switch(lowerCh) {
             case 'a':
             case 'e':
             case 'i':
